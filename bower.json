@@ -1,0 +1,23 @@
+{
+  "name": "todo-from-scratch",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Cade Nichols <cade@cadenichols.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/CodingHouseFI/todo-from-scratch",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.3",
+    "moment": "^2.13.0"
+  }
+}

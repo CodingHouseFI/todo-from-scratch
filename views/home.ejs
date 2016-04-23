@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo App</title>
+
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="/bower_components/moment/moment.js"></script>
+  <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="home.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Todo App!</h1>
+  
+    <button class="btn btn-default btn-lg newTodo">New Todo</button>
+
+  </div>
+
+
+
+  <div class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form class='newTodoForm'>
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="newTodoDesc">Description</label>
+              <input type="text" class="form-control" id="newTodoDesc" placeholder="Buy Eggs." required>
+            </div>
+            <div class="form-group">
+              <label for="newTodoDueDate">Description</label>
+              <input type="date" class="form-control" id="newTodoDueDate" required>
+            </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Create Todo</button>
+          </div>
+        </form>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+
+</body>
+</html>
